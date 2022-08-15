@@ -1,0 +1,33 @@
+{% extends 'base.html.twig' %}
+
+{% block title %} Accueil{% endblock %}
+
+{% block body %}
+    <style>
+        .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
+        .bg-image {
+            background-image: url("https://cdn.pixabay.com/photo/2017/02/27/21/47/yogurt-2104327_960_720.jpg");
+            height: 250px;
+            background-repeat: no-repeat;
+            background-position: right 50% bottom 70%;
+            background-size: cover;
+            width: 100%;
+            position: absolute;
+            z-index: -1;
+        }
+        .title{color: black;}
+        body{
+            height: 1000px;
+        }
+        article{margin-top: 250px}
+    </style>
+
+    <div class="bg-image">
+        <h1 class="title text-end mt-5 me-5">Sandrine Coupart <br> Diététicienne-nutritionniste</h1>
+    </div>
+
+    <article>
+
+    </article>
+{% endblock %}
+
